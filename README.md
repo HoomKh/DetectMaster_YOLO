@@ -1,6 +1,4 @@
-<video src="demo/ep1.mp4" controls="controls" style="max-width: 100%;">
-  Your browser does not support the video tag.
-</video>
+
 
 
 ---
@@ -24,10 +22,16 @@ Welcome to DetectMaster YOLO, a comprehensive project for object detection using
 - [License](#license)
 
 ## Introduction
+<div style="text-align: center;">
+    <img src="demo/realtime.png" style="width:1080px;height:600px;">
+</div>
 
 DetectMaster YOLO leverages the power of YOLO for real-time object detection. YOLO is a state-of-the-art, real-time object detection system that can identify multiple objects in a single frame with high accuracy. This project demonstrates the capabilities of YOLO by providing several example scripts for different detection scenarios.
 
 ## Features
+<div style="text-align: center;">
+    <img src="demo/realtime1.png" style="width:1080px;height:600px;">
+</div>
 
 - Real-time object detection using a webcam
 - Vehicle counting for traffic analysis
@@ -57,6 +61,10 @@ Each script in this repository serves a different purpose. Follow the instructio
 
 ### YOLO Webcam Detection
 
+<div style="text-align: center;">
+    <img src="demo/webcam.png" style="width:1080px;height:600px;">
+</div>
+
 This script uses your webcam to perform real-time object detection.
 
 ```bash
@@ -64,6 +72,10 @@ python Yolo_Webcam.py
 ```
 
 ### Car Counter
+
+<div style="text-align: center;">
+    <img src="demo/counter.png" style="width:1080px;height:600px;">
+</div>
 
 This script counts the number of cars passing through a specified area in a video.
 
@@ -73,6 +85,10 @@ python Car_Counter.py
 
 ### People Counter
 
+<div style="text-align: center;">
+    <img src="demo/peoplecounter.png" style="width:1080px;height:600px;">
+</div>
+
 This script counts the number of people passing through a specified area in a video.
 
 ```bash
@@ -80,6 +96,10 @@ python People_Counter.py
 ```
 
 ### PPE Detection
+
+<div style="text-align: center;">
+    <img src="demo/ppe.png" style="width:1080px;height:600px;">
+</div>
 
 This script detects the presence of personal protective equipment (PPE) on individuals.
 
